@@ -20,7 +20,7 @@ Dari hasil akurasi dari menggunakan ANN dan SVM dapat diketahui bahwa:
 - accuracy ANN = 0.975
 - accuracy SVM = 0.92
 
-Dari hasil diatas dapat diketahui bahwa ANN memiliki akurasi yang lebih tinggi artinya ANN menangkap pola lebih kompleks dibandingkan menggunakan SVM. Akan tetapi, perlu diperhatikan bahwa dalam pemilihan model tergantung terhadapt dataset yang digunakan, pemilihan parameter, permasalahan yang terjadi, dan ukuran dataset. Sehingga untuk memilih model dalam melakukan klasifikasi tergantung kebutuhan dataset.
+
 
 ## 2. REGRESI MENGGUNAKAN ANN
    
@@ -29,6 +29,16 @@ Dataset ini memberikan informasi tentang percobaan periklanan antara anggaran me
 pada data ini fitur yang paling berpengaruh terhadap target adalah Youtube sehingga saya menggunakan youtube untuk membangun model dan visualisasinya.
 Link dataset : https://www.kaggle.com/datasets/fayejavad/marketing-linear-multiple-regression/data
 
+Dari hasil akurasi dari menggunakan ANN dan SVM dapat diketahui bahwa:
+SVM
+Root Mean Square Error (RMSE): 3.8493374993168183
+Mean Absolute Error (MAE): 3.030516702924456
+
+ANN
+Mean Squared Error: 18.87835809869715
+Mean Absolute Error: 3.5625496828682386
+
+Dari hasil diatas dapat diketahui bahwa ANN memiliki akurasi yang lebih tinggi dibandingkan SVM artinya ANN menangkap pola lebih kompleks dibandingkan menggunakan SVM. Akan tetapi, perlu diperhatikan kembali bahwa dalam pemilihan model tergantung terhadapt dataset yang digunakan, pemilihan parameter, permasalahan yang terjadi, dan ukuran dataset. Sehingga untuk memilih model dalam melakukan klasifikasi tergantung kebutuhan dataset.
 
 ## HOW TO RUN:
 
