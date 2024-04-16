@@ -30,13 +30,13 @@ pada data ini fitur yang paling berpengaruh terhadap target adalah Youtube sehin
 Link dataset : https://www.kaggle.com/datasets/fayejavad/marketing-linear-multiple-regression/data
 
 Dari hasil akurasi dari menggunakan ANN dan SVM dapat diketahui bahwa:
-# SVM
+## SVM
 
 Root Mean Square Error (RMSE): 3.8493374993168183
 
 Mean Absolute Error (MAE): 3.030516702924456
 
-# ANN
+## ANN
 
 Mean Squared Error: 18.87835809869715
 
@@ -44,7 +44,7 @@ Mean Absolute Error: 3.5625496828682386
 
 Dari hasil diatas dapat diketahui bahwa ANN memiliki akurasi yang lebih tinggi dibandingkan SVM artinya ANN menangkap pola lebih kompleks dibandingkan menggunakan SVM. Akan tetapi, perlu diperhatikan kembali bahwa dalam pemilihan model tergantung terhadapt dataset yang digunakan, pemilihan parameter, permasalahan yang terjadi, dan ukuran dataset. Sehingga untuk memilih model dalam melakukan klasifikasi tergantung kebutuhan dataset.
 
-## HOW TO RUN:
+# HOW TO RUN:
 
 - git clone : https://github.com/0neejj/2108107010083_Pertemuan_11_ANN
   
